@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":react-native-heart-beat" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../../demoHR/android" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":react-native-heart-beat" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../demoHR/node_modules/react-native-heart-beat/android/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../demoHR/node_modules/react-native-heart-beat/android/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../demoHR/node_modules/react-native-heart-beat/android/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.59.3.aar/7cd86069dc831a0a9cb017e0501cf68f/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b0747cd5f32442a2376d8254365c07c2/jars/classes.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.21/kotlin-stdlib-jdk8-1.3.21.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.21/kotlin-stdlib-jdk7-1.3.21.jar:/Users/t/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.8/4b71d5338a5cdc825c67c5c81e1e605df0f1fc9d/rxjava-2.2.8.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/85d27eb7a52cbbff9b36c936b9a660fe/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/KalmanRx-1.2.1.aar/8d9006ccc20e94dead3b362ab5e0a097/jars/classes.jar:/Users/t/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.21/26829ebce8f3fb39659773db4016befadda55df1/kotlin-stdlib-jre8-1.2.21.jar:/Users/t/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.21/3beb08c67673033183c8652572680587876e64b5/kotlin-stdlib-jre7-1.2.21.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.jar:/Users/t/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.facebook.infer.annotation/infer-annotation/0.11.2/f514ff4ca022a579d9cf7524846988b646ae4491/infer-annotation-0.11.2.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d2083c9b0ff4081ea2ddad1f5f7bca30/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/94a0488132981e9ea1eeb7effc5ab602/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/3654c00cefc9f6ad521d7ae7641b7072/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d35cacc7dd605a3cbae9fd9a00d37ef0/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d4f42be12a5888aa7915c68e19591821/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/49aef1dfdf63be6b909b338b2f9bb10f/jars/classes.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.12.1/f689d3657c3f1fdbde4877bcddc668491a4ad46f/okhttp-urlconnection-3.12.1.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.15.0/bc28b5a964c8f5721eb58ee3f3c47a9bcbf4f4d8/okio-1.15.0.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/d6340906150e82679774966a4d47a2b7/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b77da80544d61569eda557a2cf4da608/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c523c631f91eee586da7b514fd406d87/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5fe37c67401c57794e1fa5b629dc599b/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/28c51d088769e8c315c6dc2529e4dd1b/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35128c5da7114f0720b558c3eceb2be6/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c56c5668688fdace462cc314bf0d53a6/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/dd9e170accc8e5989ca1d4ab930abfbf/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b8f36891d111b8053e534de85c561e06/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2be56a8c4f81808f46dde644245e49ea/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d58b4bf93b234e4e714384e36ad14685/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a808f8edc65b47e1f4a7b2649764842e/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/931c8e83287108a419d8c4d2aa1a7f38/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e562b8d3793a0ccdf9c9e01be79d59e9/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9672dc1fc783f636760c2822c1c5b194/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5525832b3991d225ab5224d843812f76/jars/classes.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5039e5a179fca6fe7e87cf2396577d45/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f4d7aaa6e556bf37156e7fe783466682/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3d279287cf5733b08b458d3744af57ac/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f6c8ed845bb75b0451a06d90ded716a6/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6dfcbb7e17e8c5b7bfdfcd9801f36728/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3cbcf8e165e607f08a8e9a6de4558a22/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ac54da6c2bd0174ff67bf87430fd20f0/jars/classes.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b123f49cb0505438a850e696e41e17f6/jars/classes.jar:/Users/t/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a53eeb3784dbbd070605d6d0a611798e/jars/classes.jar:/Users/t/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/119ce3673fb0b3b6832763bd7e86cdd5/jars/classes.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.jar:/Applications/Android Studio.app/Contents/gradle/m2repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/t/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/5d72971a09000f9a56482476d7d296b6/jars/classes.jar:/Users/t/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar:/Users/t/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar:/Users/t/Projects/demoHR/node_modules/react-native-heart-beat/android/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar:/Users/t/Library/Android/sdk/platforms/android-26/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="react-native-heart-beat_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.21/kotlin-android-extensions-1.3.21.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
+    <output-test url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/source/apt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/res/rs/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/aidl_source_output_dir/debugAndroidTest/compileDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/renderscript_source_output_dir/debugAndroidTest/compileDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/not_namespaced_r_class_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/generated/source/r" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/aapt_friendly_merged_manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/check_manifest_result" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/compile_only_not_namespaced_r_class_jar" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/library_manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/lint_jar" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/merged_manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/packaged_res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/public_res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/kotlin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/build/tmp" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTest/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/androidTestDebug/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/aidl" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/assets" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/res" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/rs" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/debug/shaders" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/aidl" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/assets" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/kotlin">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/kotlin" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/res" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/rs" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/main/shaders" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/test/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/aidl">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/aidl" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/assets">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/assets" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/res" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/resources">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/rs">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/rs" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/shaders">
+      <sourceFolder url="file://$MODULE_DIR$/../../demoHR/node_modules/react-native-heart-beat/android/src/testDebug/shaders" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.12.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fresco:1.10.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:1.10.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee:1.10.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:loader:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cursoradapter:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.react:react-native:0.59.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:1.10.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:soloader:0.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:drawerlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.1.6@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:documentfile:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:collections:28.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:1.10.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:print:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.kibotu:KalmanRx:1.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.2.8@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxandroid:1.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline:1.10.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:customview:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
+  </component>
+</module>
