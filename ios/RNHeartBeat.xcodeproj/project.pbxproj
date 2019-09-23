@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNHeartBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNHeartBeat.m */; };
 		B93FB6E722534E02007BA980 /* RNHeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93FB6E622534E02007BA980 /* RNHeartBeat.swift */; };
+		DE4B587B99F95D4CDEF35F84 /* Pods_RNHeartBeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB7FFEB60C6055313370173 /* Pods_RNHeartBeat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +26,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNHeartBeat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNHeartBeat.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB7FFEB60C6055313370173 /* Pods_RNHeartBeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNHeartBeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A19FC3E9FD9F9C93C30EDE2 /* Pods-RNHeartBeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHeartBeat.debug.xcconfig"; path = "Target Support Files/Pods-RNHeartBeat/Pods-RNHeartBeat.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNHeartBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHeartBeat.m; sourceTree = "<group>"; };
 		B93FB6E522534E02007BA980 /* RNHeartBeat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNHeartBeat-Bridging-Header.h"; sourceTree = "<group>"; };
 		B93FB6E622534E02007BA980 /* RNHeartBeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNHeartBeat.swift; sourceTree = "<group>"; };
+		CB3F2D29519E46EB500F0B64 /* Pods-RNHeartBeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHeartBeat.release.xcconfig"; path = "Target Support Files/Pods-RNHeartBeat/Pods-RNHeartBeat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4B587B99F95D4CDEF35F84 /* Pods_RNHeartBeat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3382BB1102144ABE1F94BB6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A19FC3E9FD9F9C93C30EDE2 /* Pods-RNHeartBeat.debug.xcconfig */,
+				CB3F2D29519E46EB500F0B64 /* Pods-RNHeartBeat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3BFB86733F53288D3B5630EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7FFEB60C6055313370173 /* Pods_RNHeartBeat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +79,8 @@
 				B3E7B5891CC2AC0600A0062D /* RNHeartBeat.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				B93FB6E522534E02007BA980 /* RNHeartBeat-Bridging-Header.h */,
+				3382BB1102144ABE1F94BB6D /* Pods */,
+				3BFB86733F53288D3B5630EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +91,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNHeartBeat" */;
 			buildPhases = (
+				72A99B4FA1C34082D5C13598 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -110,6 +136,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72A99B4FA1C34082D5C13598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNHeartBeat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -207,6 +258,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A19FC3E9FD9F9C93C30EDE2 /* Pods-RNHeartBeat.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
@@ -229,6 +281,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3F2D29519E46EB500F0B64 /* Pods-RNHeartBeat.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (

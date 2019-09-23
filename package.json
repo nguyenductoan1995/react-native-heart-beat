@@ -1,7 +1,7 @@
 {
   "name": "react-native-heart-beat",
   "version": "1.0.1",
-  "description": "",
+  "description": "Measure heart beat using flashlight",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,7 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": ""
+  "homepage": "https://github.com/nguyenductoan1995/react-native-heart-beat",
+  "author": "Loi",
+  "license": "MIT"
 }
