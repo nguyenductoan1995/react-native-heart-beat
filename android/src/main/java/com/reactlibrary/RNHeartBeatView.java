@@ -1,44 +1,25 @@
 package com.reactlibrary;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
-import android.hardware.Camera;
-import android.hardware.Camera.PreviewCallback;
-import android.graphics.Color;
-import android.graphics.Rect;
 import android.os.Build;
-import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.util.AttributeSet;
-import android.util.Log;
-import android.view.MotionEvent;
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
-import android.view.View;
-import android.support.annotation.Nullable;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
 
-import com.facebook.react.bridge.Arguments;
-import com.facebook.react.bridge.ReactContext;
-import com.facebook.react.bridge.WritableMap;
-import com.facebook.react.modules.core.DeviceEventManagerModule;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+import android.view.MotionEvent;
+import android.view.ViewGroup;
+
 import com.facebook.react.uimanager.ThemedReactContext;
-import com.facebook.react.uimanager.events.RCTEventEmitter;
 import com.reactlibrary.Camera.CameraManager;
 import com.reactlibrary.Camera.CameraPreview;
 import com.reactlibrary.Camera.CameraPreviewCallback;
 import com.reactlibrary.Camera.EventEmiter;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicBoolean;
 
-import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.Manifest.permission.CAMERA;
 
     public class RNHeartBeatView extends ViewGroup implements ActivityCompat.OnRequestPermissionsResultCallback, CameraPreviewCallback {
